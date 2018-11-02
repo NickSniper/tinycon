@@ -215,7 +215,7 @@
     context.textBaseline = "top";
 
     // unfortunately webkit/mozilla are a pixel different in text positioning
-    context.fillText(label, r === 2 ? 29 : 15, browser.mozilla ? 7*r : 6*r);
+    context.fillText(label, 15*r, browser.mozilla ? 7*r : 6*r);
   };
 
   var refreshFavicon = function(){
